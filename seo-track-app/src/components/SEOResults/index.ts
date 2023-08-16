@@ -1,0 +1,1 @@
+export { SEOResults } from "./SEOResults";
