@@ -2,9 +2,8 @@ import { createRef, useState } from "react";
 import axios from "axios";
 
 import validUrl from "valid-url";
-import { SEOForm } from "./components/SEOForm";
-import { SEOResults } from "./components/SEOResults";
 import { extractRankings } from "./utils/utils";
+import { SEOForm, SEOResults } from "./components/index";
 
 export interface IPageRanking {
   page: number;
